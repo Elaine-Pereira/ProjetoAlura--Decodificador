@@ -1,0 +1,70 @@
+body {
+    margin: 0px auto;
+    padding: 0px;
+    background:#DECAED ;
+
+}
+.cubo{
+    position: relative;
+    margin: 10px 20px;
+    padding: 20px;
+    border-width: 20px;
+}
+img{
+    position: relative;
+    border-radius: 32px; 
+    margin: 0 auto;
+   
+}
+.retangulo-container {
+   display: flex;
+   margin: 0 auto;
+}
+
+.input-field {
+    display:block;
+    position:static;
+    height: 48px;
+    width: 680px;
+    left: 440px;
+    top: 300px;
+    border: none;
+    border-radius:10px;
+    margin: 30px  80px;
+}
+
+.button-left {
+    color: white;
+    height: 67px;
+    width: 200px;
+    left: 100px;
+    top: 0px;
+    border-radius: 10px;
+    border: none;
+    padding: 24px;
+    background: rgb(238, 105, 216);
+    margin: 0 70px;
+}
+.button-left:hover{
+    background: pink;
+    transition: 1s;
+
+}
+
+.button-ritgh {
+    Color: white;
+    height: 67px;
+    width: 200px;
+    left: 100px;
+    top: 0px;
+    border: none;
+    border-radius: 10px;
+    padding: 24px;
+    background: rgb(229, 135, 238);
+    margin: 0 70px;
+    
+}
+.button-ritgh:hover{
+    background: pink;
+    transition: 1s;
+}
