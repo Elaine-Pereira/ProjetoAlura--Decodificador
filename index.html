@@ -9,22 +9,30 @@
     
 </head>
 <body>
-    <div class="container">
-        <div class="retangulo-container">
-            <img class="cubo" src="cubo.jpg">
-            <img src="https://trello.com/1/cards/6279182020ef3b48c931b1cf/attachments/6279182120ef3b48c931b3a2/download/1.PNG">
-        </div>
-        <div>
-            <input id="teste" name="name" class="input-field" type="text" placeholder="Digite aqui" />
-        </div>
-        <div class="div-button">
-            <button type="submit" onclick="codificador()" class="button-left">Criptografar</button>
-            <button type="submit" onclick="decodificador()" class="button-ritgh">Descriptografar</button>
-        </div>
-    </div>
+    <main>
+        <section class="container">
+            <div class="retangulo-container">
+                <img class="cubo" src="cubo.jpg">
+               <h1 id="mensagem">
+
+               </h1>
+                <img  src="https://trello.com/1/cards/6279182020ef3b48c931b1cf/attachments/6279182120ef3b48c931b3a2/download/1.PNG">
+            </div>
+        </section>
+            <section>
+                    <input id="teste" name="mensagem" class="input-field" type="text" placeholder="Digite aqui" />
+                    <input id="mensagem" name="mensagem" class="input-Mensagem" type="text"  placeholder="Mensagem Codificada" />
+               <div class="div-button">
+                    <button type="submit" onclick="codificador()" class="button-left">Criptografar</button>
+                    <button type="submit" onclick="decodificador()" class="button-ritgh">Descriptografar</button>
+                    <button type="submit" onclick="copy()" id="copy" class="button-copy" value="copiar">Copiar</button>
+                </div>
+            </section> 
+    </main>
 <footer>
     <div class="container-footer">
         <div class="copyright">
+            <br> <br>
          © 2022 Todos os direitos Reservados | <a href=""> Elaine</a>
         </div>
 </footer>

@@ -13,16 +13,21 @@ body {
 img{
     position: relative;
     border-radius: 32px; 
-    margin: 0 auto;
+    margin: 0 10px;
    
 }
 .retangulo-container {
    display: flex;
-   margin: 0 auto;
+   margin: 0 90px;
 }
-
+.input-Mensagem {
+    display: inline-flex;
+    width: 200px;
+    height: 80px;
+    margin: 0px 10px;
+}
 .input-field {
-    display:block;
+    display:inline-flex;
     position:static;
     height: 48px;
     width: 680px;
@@ -60,11 +65,28 @@ img{
     border: none;
     border-radius: 10px;
     padding: 24px;
-    background: rgb(229, 135, 238);
+    background: rgb(178, 83, 187);
     margin: 0 70px;
     
 }
 .button-ritgh:hover{
+    background: pink;
+    transition: 1s;
+}
+.button-copy{
+    Color: white;
+    height: 67px;
+    width: 200px;
+    left: 100px;
+    top: 0px;
+    border: none;
+    border-radius: 10px;
+    padding: 24px;
+    background: rgb(85, 7, 92);
+    margin: 0 70px;
+     
+}
+.button-copy:hover{
     background: pink;
     transition: 1s;
 }
