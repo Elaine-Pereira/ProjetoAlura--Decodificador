@@ -10,21 +10,26 @@ body {
     padding: 20px;
     border-width: 20px;
 }
-img{
-    position: relative;
-    border-radius: 32px; 
-    margin: 0 10px;
-   
-}
+
 .retangulo-container {
    display: flex;
    margin: 0 90px;
 }
-.input-Mensagem {
+.icon{
+    width: 15px;
+    height:15px;
+}
+.vector{
+    display: inline-flex;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+.mensagem {
     display: inline-flex;
     width: 200px;
     height: 80px;
     margin: 0px 10px;
+    border-radius: 10px;
 }
 .input-field {
     display:inline-flex;
