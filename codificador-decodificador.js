@@ -26,7 +26,7 @@ document.getElementById('copy').addEventListener('click', copy);
 async function copy() {
   let texto = document.querySelector('.input-field').value;
   await navigator.clipboard.writeText(texto);
-   alert ("texto copiado");
+   alert ("O texto foi copiado");
 }
 
 //Removendo caracteres especiais, números e letras maiúsculas //
