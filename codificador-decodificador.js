@@ -22,10 +22,13 @@ captar = document.getElementById("teste").value;
   document.getElementById("mensagem").innerHTML = rep5;
 }
 
-function copy(){
-  var resultado = captar
-
+document.getElementById('copy').addEventListener('click', copy);
+async function copy() {
+  let texto = document.querySelector('.input-field').value;
+  await navigator.clipboard.writeText(texto);
+   alert ("texto copiado");
 }
+
 //Removendo caracteres especiais, números e letras maiúsculas //
 document.getElementById("teste").onkeypress = function (e) {
   var chr = String.fromCharCode(e.which);
