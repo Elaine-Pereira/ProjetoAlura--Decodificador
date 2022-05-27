@@ -1,3 +1,4 @@
+//Funções dos botões//
 var captar="";
 function codificador() {
   captar = document.getElementById("teste").value;
@@ -25,3 +26,9 @@ function copy(){
   var resultado = captar
 
 }
+//Removendo caracteres especiais, números e letras maiúsculas //
+document.getElementById("teste").onkeypress = function (e) {
+  var chr = String.fromCharCode(e.which);
+  if ("qwertyuioplkjhgfdsazxcvbnm".indexOf(chr) < 0)
+  return false;
+  };
