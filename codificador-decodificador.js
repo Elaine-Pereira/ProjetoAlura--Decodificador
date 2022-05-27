@@ -22,6 +22,7 @@ captar = document.getElementById("teste").value;
   document.getElementById("mensagem").innerHTML = rep5;
 }
 
+
 document.getElementById('copy').addEventListener('click', copy);
 async function copy() {
   let texto = document.querySelector('.input-field').value;
